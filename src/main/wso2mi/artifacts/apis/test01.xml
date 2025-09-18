@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/test01" name="test01" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/">
+        <inSequence>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message>this is a test logger</message>
+            </log>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+</api>
