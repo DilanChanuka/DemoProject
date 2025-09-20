@@ -5,6 +5,10 @@
             <log category="INFO" logMessageID="false" logFullPayload="false">
                 <message>this is a test logger</message>
             </log>
+            <payloadFactory media-type="json" template-type="default">
+                <format>{"Test Message"}</format>
+            </payloadFactory>
+            <respond/>
         </inSequence>
         <faultSequence>
         </faultSequence>
