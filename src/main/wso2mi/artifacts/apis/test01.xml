@@ -5,6 +5,9 @@
             <log category="INFO" logMessageID="false" logFullPayload="false">
                 <message>this is a test logger</message>
             </log>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message>Second Logger</message>
+            </log>
             <payloadFactory media-type="json" template-type="default">
                 <format>{"Test Message"}</format>
             </payloadFactory>
